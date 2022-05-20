@@ -1,0 +1,40 @@
+#rplus-settings .menu-vertical-container .menu-vertical {
+  float: left; }
+
+#rplus-settings .menu-vertical-container .tab-content {
+  width: 100%;
+  max-width: calc(970px - 160px);
+  padding-left: 12px;
+  float: left; }
+  #rplus-settings .menu-vertical-container .tab-content .rplus-premium-section pre {
+    white-space: pre-wrap; }
+  #rplus-settings .menu-vertical-container .tab-content .rplus-update-log-section textarea {
+    width: calc(970px - 160px - 12px - 15px - 15px);
+    height: 450px;
+    resize: none; }
+  #rplus-settings .menu-vertical-container .tab-content .rplus-update-log-section.form-group {
+    -webkit-user-select: none; }
+  #rplus-settings .menu-vertical-container .tab-content .rbx-divider {
+    margin-top: 11px;
+    margin-bottom: 4px; }
+  #rplus-settings .menu-vertical-container .tab-content a.icon-Musical,
+  #rplus-settings .menu-vertical-container .tab-content a.icon-plus,
+  #rplus-settings .menu-vertical-container .tab-content a.icon-alert {
+    float: right;
+    -webkit-user-select: none; }
+  #rplus-settings .menu-vertical-container .tab-content #rplus-groupshout-notifier-input,
+  #rplus-settings .menu-vertical-container .tab-content .rplus-groupshout-whitelist {
+    margin-top: 12px; }
+  #rplus-settings .menu-vertical-container .tab-content .rplus-feature-list .text-date-hint span {
+    vertical-align: middle; }
+  #rplus-settings .menu-vertical-container .tab-content .rplus-privacy-policy ul {
+    padding-left: 30px; }
+  #rplus-settings .menu-vertical-container .tab-content .rplus-privacy-policy ul, #rplus-settings .menu-vertical-container .tab-content .rplus-privacy-policy li {
+    list-style: circle;
+    border: none;
+    width: auto;
+    float: none; }
+  #rplus-settings .menu-vertical-container .tab-content .select-group.rbx-select-group {
+    max-width: 250px;
+    float: right;
+    margin-top: -8px; }

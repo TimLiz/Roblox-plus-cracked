@@ -1,0 +1,92 @@
+{
+   "background": {
+      "page": "/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "/images/icons/icon_32x32.png"
+      },
+      "default_title": "Roblox+ cracked"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/js/jquery/style.js", "/js/jquery/loadStylesheets.js", "/js/vendors/jquery-3.4.1.min.js", "/js/jquery/styleAfterJquery.js" ],
+      "matches": [ "*://*.roblox.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "/css/icons.css", "/css/style.css", "/css/roblox/itemCards.css", "/css/roblox/icons.css" ],
+      "js": [ "/js/vendors/twemoji.min.js", "/js/vanilla/extension/extension.js", "/js/vanilla/extension/messaging.js", "/js/vanilla/extension/event.js", "/js/vanilla/extension/backgroundService.js", "/js/vanilla/extension/reload.js", "/js/vanilla/extension/notificationService.js", "/js/vanilla/extension/storage.js", "/js/vanilla/queuedPromise.js", "/js/vanilla/cachedPromise.js", "/js/archive/global.js", "/js/roblox/api.js", "/js/roblox/xsrfHandler.js", "/js/roblox/apiSiteContentHandler.js", "/js/archive/prefunc.js", "/js/vanilla/timedCache.js", "/js/vanilla/batchItemProcessor.js", "/js/vanilla/cursorPagination/cursorPaginationConstants.js", "/js/vanilla/cursorPagination/PaginationCache.js", "/js/vanilla/cursorPagination/CursorPager.js", "/js/vendors/react.production.min.js", "/js/vendors/react-dom.production.min.js", "/js/vendors/highcharts-8.0.0.min.js", "/js/plugins/HighchartsExtensions.js", "/js/output/react/vendors/HighchartsReact.js", "/js/roblox/thumbnails.js", "/js/roblox/users.js", "/js/roblox/presence.js", "/js/roblox/catalog.js", "/js/roblox/inventory.js", "/js/roblox/social.js", "/js/roblox/gameBadges.js", "/js/roblox/games.js", "/js/roblox/content.js", "/js/roblox/audio.js", "/js/roblox/trades.js", "/js/roblox/groups.js", "/js/roblox/economy.js", "/js/roblox/economyTransactions.js", "/js/roblox/privateMessages.js", "/js/roblox/ui.js", "/js/archive/preroblox.js", "/js/rplus/RobloxPlus.js", "/js/rplus/settings.js", "/js/rplus/sponsoredItems.js", "/js/rplus/premium.js", "/js/rplus/bucketedSales.js", "/js/rplus/robuxHistory.js", "/js/jquery/navigation.js" ],
+      "matches": [ "*://*.roblox.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "/css/output/features/notification-stream-widget.css" ],
+      "js": [ "/js/jquery/content.js", "/js/output/react/features/notification-stream/notification-stream-widget.js", "/js/jquery/notificationStream.js", "/js/jquery/Login.js", "/js/jquery/GroupV2.js", "/js/jquery/Inventory.js", "/js/jquery/Friends.js", "/js/jquery/Profile.js", "/js/jquery/Game.js", "/js/jquery/Games.js", "/js/jquery/Item.js", "/js/jquery/Avatar.js", "/js/jquery/Catalog.js", "/js/jquery/Messages.js", "/js/jquery/DeveloperStats.js", "/js/jquery/loadPages.js" ],
+      "matches": [ "*://www.roblox.com/*", "*://web.roblox.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "/css/output/features/quick-info-widget.css" ],
+      "js": [ "/js/output/react/features/quick-info/quick-info-widget.js", "/js/output/react/features/quick-info/user-info/user-info-widget.js", "/js/output/react/features/quick-info/user-info/user-card.js", "/js/output/react/features/quick-info/user-info/user-inventory.js", "/js/output/react/features/quick-info/user-info/inventory-item-card.js", "/js/jquery/quickInfoBox.js" ],
+      "matches": [ "*://www.roblox.com/*", "*://web.roblox.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "/js/output/react/components/vertical-tabs.js", "/js/output/react/components/pill-toggle.js", "/js/output/react/components/thumbnail.js", "/js/output/react/components/thumbnail-presence.js" ],
+      "matches": [ "*://*.roblox.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "/css/output/pages/settings.css" ],
+      "js": [ "/js/output/react/pages/settings/settings-tab.js", "/js/output/react/pages/settings/about.js", "/js/output/react/pages/settings/navigation-settings.js", "/js/output/react/pages/settings/notification-settings.js", "/js/output/react/pages/settings/other-settings.js", "/js/output/react/pages/settings/settings.js" ],
+      "matches": [ "*://*.roblox.com/my/account*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "/css/output/pages/catalog.css" ],
+      "js": [ "/js/output/react/pages/catalog/featuredItems.js" ],
+      "matches": [ "*://*.roblox.com/catalog/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "/css/output/pages/groups.css" ],
+      "matches": [ "*://*.roblox.com/groups/*/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "/css/output/pages/item-configuration.css", "/css/output/components/bucketed-sales-chart.css" ],
+      "js": [ "/js/output/react/components/bucketed-sales-chart.js", "/js/output/react/pages/item-configuration/item-sales.js" ],
+      "matches": [ "*://*.roblox.com/catalog/configure*", "*://*.roblox.com/library/configure*", "*://*.roblox.com/game-pass/configure*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "/css/output/components/bucketed-sales-chart.css" ],
+      "js": [ "/js/output/react/components/bucketed-sales-chart.js", "/js/output/react/pages/configure-group/revenue.js" ],
+      "matches": [ "*://*.roblox.com/groups/configure*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "/css/output/pages/game-details.css" ],
+      "matches": [ "*://*.roblox.com/games/*/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "/css/output/pages/item-details.css" ],
+      "js": [ "/js/output/react/pages/item-details/item-details-tabs.js", "/js/output/react/pages/item-details/linked-items.js", "/js/output/react/pages/item-details/item-owners.js" ],
+      "matches": [ "*://*.roblox.com/catalog/*/*", "*://*.roblox.com/library/*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "/js/output/react/pages/developer-stats/premium-payouts-summary.js" ],
+      "matches": [ "*://*.roblox.com/places/*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "/js/output/react/pages/money/robux-history-chart.js" ],
+      "matches": [ "*://*.roblox.com/transactions*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Cracked version of Roblox+ by TimLiz",
+   "homepage_url": "https://www.roblox.com/my/account?tab=rplus",
+   "icons": {
+      "128": "/images/icons/icon_128x128.png",
+      "16": "/images/icons/icon_16x16.png",
+      "48": "/images/icons/icon_64x64.png"
+   },
+   "incognito": "split",
+   "manifest_version": 2,
+   "minimum_chrome_version": "74.0.0",
+   "name": "Roblox+ cracked by TimLiz",
+   "permissions": [ "gcm", "contextMenus", "webRequest", "webRequestBlocking", "tts", "notifications", "*://*.roblox.com/*", "*://*.rbxcdn.com/*", "*://*.roblox.plus/*" ],
+   "short_name": "Roblox+ cracked",
+   "version": "1",
+   "web_accessible_resources": [ "*.css", "*.svg", "*.png", "*.html", "*.js", "jquery.min.map", "/images/icons/icon_32x32.png", "*://*.roblox.com/*", "*://*.rbxcdn.com/*", "*://*.roblox.plus/*" ]
+}

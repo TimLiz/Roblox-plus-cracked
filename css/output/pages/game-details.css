@@ -1,0 +1,9 @@
+game-badges-list .badge-image {
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative; }
+  game-badges-list .badge-image .achievement-date {
+    background-color: rgba(25, 25, 25, 0.6);
+    position: absolute;
+    top: 16px;
+    width: 100%; }
